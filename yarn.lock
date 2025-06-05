@@ -1026,6 +1026,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^22.15.30":
+  version: 22.15.30
+  resolution: "@types/node@npm:22.15.30"
+  dependencies:
+    undici-types: ~6.21.0
+  checksum: c380ad176575dc847a119e63afe457f3481c0095ef1720605d42b3133cac1c5980179643ce67c9a314c83b9a45f2b17bde5f15b29d8aa1d17e0a43318273829b
+  languageName: node
+  linkType: hard
+
+"@types/path-type@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "@types/path-type@npm:3.0.1"
+  dependencies:
+    path-type: "*"
+  checksum: 1a5d8310c02348766aae4c9d83206c91cb261e0e07b23f52fb0f5835004f3e4c7ebe6ce51b13e322c985a7500655786d4dd4509e42d5dc9aacb25fefcc2deba2
+  languageName: node
+  linkType: hard
+
 "@types/react-dom@npm:^19.1.2":
   version: 19.1.6
   resolution: "@types/react-dom@npm:19.1.6"
@@ -3115,6 +3133,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"path-type@npm:*":
+  version: 6.0.0
+  resolution: "path-type@npm:6.0.0"
+  checksum: b9f6eaf7795c48d5c9bc4c6bc3ac61315b8d36975a73497ab2e02b764c0836b71fb267ea541863153f633a069a1c2ed3c247cb781633842fc571c655ac57c00e
+  languageName: node
+  linkType: hard
+
 "path@npm:^0.12.7":
   version: 0.12.7
   resolution: "path@npm:0.12.7"
@@ -3802,6 +3827,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"undici-types@npm:~6.21.0":
+  version: 6.21.0
+  resolution: "undici-types@npm:6.21.0"
+  checksum: 46331c7d6016bf85b3e8f20c159d62f5ae471aba1eb3dc52fff35a0259d58dcc7d592d4cc4f00c5f9243fa738a11cfa48bd20203040d4a9e6bc25e807fab7ab3
+  languageName: node
+  linkType: hard
+
 "unique-filename@npm:^4.0.0":
   version: 4.0.0
   resolution: "unique-filename@npm:4.0.0"
@@ -4059,6 +4091,8 @@ __metadata:
     "@testing-library/react": latest
     "@testing-library/react-hooks": ^8.0.1
     "@testing-library/user-event": ^14.6.1
+    "@types/node": ^22.15.30
+    "@types/path-type": ^3.0.1
     "@types/react": ^19.1.2
     "@types/react-dom": ^19.1.2
     "@vitejs/plugin-react": ^4.4.1

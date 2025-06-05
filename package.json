@@ -12,6 +12,7 @@
     "test:ui": "vitest --ui"
   },
   "dependencies": {
+    "@types/path-type": "^3.0.1",
     "axios": "^1.9.0",
     "driver.js": "^1.3.6",
     "i18next": "^25.2.1",
@@ -27,6 +28,7 @@
     "@testing-library/react": "latest",
     "@testing-library/react-hooks": "^8.0.1",
     "@testing-library/user-event": "^14.6.1",
+    "@types/node": "^22.15.30",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
     "@vitejs/plugin-react": "^4.4.1",
