@@ -119,4 +119,4 @@ Incluye pruebas unitarias para:
 
 Esteban Vega
 Frontend Developer
-[LinkedIn](https://www.linkedin.com/in/estebanvega)
+[LinkedIn](https://www.linkedin.com/in/estevg/)
