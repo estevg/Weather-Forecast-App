@@ -1,7 +1,6 @@
 import { Weather } from "@/domain/weather/entities/Weather";
-import { formatDateTime } from "@/shared/utils";
+import { formatDateTime, capitalize } from "@/shared/utils";
 import { useTranslation } from "react-i18next";
-import { capitalize } from "../../../shared/utils/index";
 
 type Props = {
   forecast: Weather[];
