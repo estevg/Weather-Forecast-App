@@ -1,0 +1,31 @@
+{
+  "app": {
+    "title": "Pronóstico del Clima",
+    "selectCity": "Selecciona una ciudad",
+    "time": "Hora",
+    "icon": "Icono",
+    "description": "Descripción",
+    "temperature": "Temperatura",
+    "min": "Mín.",
+    "max": "Máx.",
+    "next": "Siguiente",
+    "prev": "Anterior",
+    "done": "Finalizar",
+
+    "tour": {
+      "language": {
+        "title": "🌍 Idioma",
+        "description": "Haz clic aquí para cambiar entre inglés y español."
+      },
+      "city": {
+        "title": "🏙️ Ciudades",
+        "description": "Selecciona una ciudad para ver su pronóstico del clima."
+      },
+      "table": {
+        "title": "📊 Pronóstico",
+        "description": "Esta tabla muestra el pronóstico climático por hora."
+      },
+      "progress": "Paso {{current}} de {{total}}"
+    }
+  }
+}

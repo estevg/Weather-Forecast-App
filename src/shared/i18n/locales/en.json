@@ -1,0 +1,31 @@
+{
+  "app": {
+    "title": "Weather Forecast",
+    "selectCity": "Select a city",
+    "time": "Time",
+    "icon": "Icon",
+    "description": "Description",
+    "temperature": "Temperature",
+    "min": "Min",
+    "max": "Max",
+    "next": "Next",
+    "prev": "Back",
+    "done": "Finish",
+
+    "tour": {
+      "language": {
+        "title": "🌍 Language",
+        "description": "Click here to switch between English and Spanish."
+      },
+      "city": {
+        "title": "🏙️ Cities",
+        "description": "Select a city to view its weather forecast."
+      },
+      "table": {
+        "title": "📊 Forecast",
+        "description": "This table shows the hourly weather forecast."
+      },
+      "progress": "Step {{current}} of {{total}}"
+    }
+  }
+}

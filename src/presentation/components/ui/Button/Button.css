@@ -1,0 +1,29 @@
+.btn {
+  font-family: inherit;
+  cursor: pointer;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.btn.default {
+  border: none;
+  background-color: var(--accent);
+  color: white;
+}
+
+.btn.default:hover {
+  background-color: #0062d1;
+}
+
+.btn.outline {
+  background-color: transparent;
+  border: 1px solid var(--border);
+  color: var(--text);
+}
+
+.btn.outline.active {
+  border: 2px solid var(--accent);
+  font-weight: 600;
+  color: var(--accent);
+}
