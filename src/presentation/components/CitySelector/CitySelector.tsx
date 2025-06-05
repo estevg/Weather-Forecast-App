@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { Button } from "../ui/Button/Button";
 
 type Props = {
@@ -7,9 +8,10 @@ type Props = {
 };
 
 export const CitySelector = ({ cities, selectedCity, onChange }: Props) => {
+  const { t } = useTranslation();
   return (
     <section className="city-selector">
-      <h2>Select a city</h2>
+      <h2>{t("app.selectCity")}</h2>
       <ul>
         {cities.map((city) => (
           <li key={city}>
